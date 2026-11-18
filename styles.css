@@ -370,6 +370,35 @@ button{
 }
 
 
+@media screen and (min-width: 1280px) {
+
+    .main-container{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 60px;
+        align-items: flex-start;
+    }
+
+    .query1440{
+        width: 70%;
+    }
+
+    .query1440beta{
+        width: 30%;
+    }
+
+    .blue-bar{
+        display: none;
+    }
+
+    .query1440beta{
+        margin-top: 15px;
+    }
+}
+
+
+
+
 }
 
 @media screen and (min-width: 1440px) {
